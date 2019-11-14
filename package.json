@@ -1,20 +1,35 @@
 {
-  "name": "flybase-cytoscape",
+  "name": "@flybase/cytoscape",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sentry/browser": "^5.9.0",
+    "cytoscape": "^3.12.0",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "cytoscape-fcose": "^1.2.0",
     "react": "^16.11.0",
+    "react-app-polyfill": "^1.0.4",
+    "react-cytoscapejs": "^1.2.1",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write 'src/**/*.{js,css,gql}'"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "jsxBracketSameLine": true,
+    "tabWidth": 2,
+    "printWidth": 80
   },
   "browserslist": {
     "production": [
@@ -27,5 +42,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^5.6.1",
+    "@testing-library/jest-dom": "^4.2.3",
+    "@testing-library/react": "^9.3.2",
+    "prettier": "^1.19.1",
+    "react-axe": "^3.3.0"
   }
 }
