@@ -1,0 +1,420 @@
+[ {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.7.1",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "Ripple",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "background-color" : "#FFFFFF",
+      "border-width" : 5.0,
+      "background-opacity" : 1.0,
+      "border-color" : "#3399FF",
+      "text-opacity" : 1.0,
+      "width" : 50.0,
+      "font-size" : 12,
+      "shape" : "ellipse",
+      "font-family" : "SansSerif",
+      "font-weight" : "bold",
+      "height" : 50.0,
+      "color" : "#133A60",
+      "border-opacity" : 1.0,
+      "content" : "data(name)"
+    }
+  },{
+    "selector" : "node[status = 'Regulators']",
+    "css" : {
+      "background-color" : "#FFFFFF"
+    }
+  }, {
+    "selector" : "node[status = 'Positive_Regulators']",
+    "css" : {
+      "background-color" : "#99FF99"
+    }
+  }, {
+    "selector" : "node[status = 'Production']",
+    "css" : {
+      "background-color" : "#FFCCCC"
+    }
+  }, {
+    "selector" : "node[status = 'Core_Components']",
+    "css" : {
+      "background-color" : "#CCCCFF"
+    }
+  }, {
+    "selector" : "node[status = 'Negative_Regulators']",
+    "css" : {
+      "background-color" : "#FF6666"
+    }
+  }, {
+    "selector" : "node[expPapers = 1]",
+    "css" : {
+      "width" : 45.0,
+      "height" : 45.0
+    }
+  }, {
+    "selector" : "node[expPapers = 2]",
+    "css" : {
+      "width" : 56.0,
+      "height" : 56.0
+    }
+  }, {
+    "selector" : "node[expPapers = 3]",
+    "css" : {
+      "width" : 65.0,
+      "height" : 65.0
+    }
+  }, {
+    "selector" : "node[expPapers = 4]",
+    "css" : {
+      "width" : 70.0,
+      "height" : 70.0
+    }
+  }, {
+    "selector" : "node[expPapers = 5]",
+    "css" : {
+      "width" : 75.0,
+      "height" : 75.0
+    }
+  }, {
+    "selector" : "node[expPapers = 6]",
+    "css" : {
+      "width" : 80.0,
+      "height" : 80.0
+    }
+  }, {
+    "selector" : "node[expPapers = 7]",
+    "css" : {
+      "width" : 85.0,
+      "height" : 85.0
+    }
+  }, {
+    "selector" : "node[expPapers = 8]",
+    "css" : {
+      "width" : 90.0,
+      "height" : 90.0
+    }
+  }, {
+    "selector" : "node[expPapers = 9]",
+    "css" : {
+      "width" : 95.0,
+      "height" : 95.0
+    }
+  },  {
+    "selector" : "node[expPapers = 10]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 11]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 12]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 13]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 14]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 15]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 16]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 17]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 18]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 19]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 20]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  },  {
+    "selector" : "node[expPapers = 21]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 22]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 23]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 24]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 25]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 26]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 27]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 28]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 29]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 30]",
+    "css" : {
+      "width" : 100.0,
+      "height" : 100.0
+    }
+  }, {
+    "selector" : "node[expPapers = 1]",
+    "css" : {
+      "font-size" : 14
+    }
+  }, {
+    "selector" : "node[expPapers = 2]",
+    "css" : {
+      "font-size" : 17
+    }
+  }, {
+    "selector" : "node[expPapers = 3]",
+    "css" : {
+      "font-size" : 20
+    }
+  }, {
+    "selector" : "node[expPapers = 4]",
+    "css" : {
+      "font-size" : 23
+    }
+  }, {
+    "selector" : "node[expPapers = 5]",
+    "css" : {
+      "font-size" : 25
+    }
+  }, {
+    "selector" : "node[expPapers = 6]",
+    "css" : {
+      "font-size" : 29
+    }
+  }, {
+    "selector" : "node[expPapers = 7]",
+    "css" : {
+      "font-size" : 33
+    }
+  }, {
+    "selector" : "node[expPapers = 8]",
+    "css" : {
+      "font-size" : 36
+    }
+  }, {
+    "selector" : "node[expPapers = 9]",
+    "css" : {
+      "font-size" : 39
+    }
+  }, {
+    "selector" : "node[expPapers = 10]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 11]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 12]",
+    "css" : {
+      "font-size" : 43
+    }
+  },  {
+    "selector" : "node[expPapers = 13]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 14]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 15]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 16]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 17]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 18]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 19]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 20]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 21]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 22]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 23]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 24]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 25]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 26]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 27]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 28]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 29]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[expPapers = 30]",
+    "css" : {
+      "font-size" : 43
+    }
+  }, {
+    "selector" : "node[type = 'protein_coding_gene']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[type = 'miRNA_gene']",
+    "css" : {
+      "shape" : "triangle"
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "#FFFFCC"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "font-family" : "SansSerif",
+      "font-weight" : "bold",
+      "target-arrow-shape" : "none",
+      "width" : 5.0,
+      "text-opacity" : 1.0,
+      "color" : "#000000",
+      "source-arrow-shape" : "none",
+      "line-color" : "#3399FF",
+      "source-arrow-color" : "#000000",
+      "opacity" : 1.0,
+      "content" : "",
+      "font-size" : 10,
+      "target-arrow-color" : "#000000",
+      "line-style" : "solid"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "#FF0000"
+    }
+  } ]
+} ]
