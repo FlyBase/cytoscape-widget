@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import LayoutControl from '../LayoutControl'
-//import CytoscapeContainer from '../CytoscapeContainer'
-import CytoscapeContainer from '../TestContainer'
+import CytoscapeContainer from '../CytoscapeContainer'
 
 import { normalizeElements } from 'react-cytoscapejs'
 
