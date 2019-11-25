@@ -24,16 +24,16 @@ const CytoscapeContainer = ({ elements = [], stylesheet }) => {
     switch (direction) {
       case 'OUT':
         if (zoomLevel > zoomOpts.minZoom) {
-         setZoomLevel(zoomLevel - 0.1)
+          setZoomLevel(zoomLevel - 0.1)
         }
-        break;
+        break
       case 'IN':
         if (zoomLevel < zoomOpts.maxZoom) {
           setZoomLevel(zoomLevel + 0.1)
         }
-        break;
+        break
       default:
-        break;
+        break
     }
   }
 
