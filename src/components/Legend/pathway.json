@@ -1,0 +1,7 @@
+[
+  { "label": "Core Member", "color": "#CCCCFF" },
+  { "label": "Positive Regulator", "color": "#99FF99" },
+  { "label": "Negative Regulator", "color": "#FF6666" },
+  { "label": "Context-dependent Regulator", "color": "#FFFFFF" },
+  { "label": "Ligand Production", "color": "#FFCCCC" }
+]

@@ -1,0 +1,2226 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "make-cytoscape-json.pl",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "Wnt-TCF_Signaling_Pathway",
+    "name" : "Wnt-TCF_Signaling_Pathway",
+    "SUID" : "Wnt-TCF_Signaling_Pathway",
+    "__Annotations" : [ ],
+    "selected" : true
+  },
+  "elements" : {
+    "edges" : [ {
+      "data" : {
+        "id" : "CHOp24_bai",
+        "source" : "CHOp24",
+        "target" : "bai",
+        "shared name" : "CHOp24 (interacts with) bai",
+        "name" : "CHOp24 (interacts with) bai",
+        "interaction" : "PPI",
+        "SUID" : "CHOp24_bai",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pav_tum",
+        "source" : "pav",
+        "target" : "tum",
+        "shared name" : "pav (interacts with) tum",
+        "name" : "pav (interacts with) tum",
+        "interaction" : "PPI",
+        "SUID" : "pav_tum",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pbl_tum",
+        "source" : "pbl",
+        "target" : "tum",
+        "shared name" : "pbl (interacts with) tum",
+        "name" : "pbl (interacts with) tum",
+        "interaction" : "PPI",
+        "SUID" : "pbl_tum",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "flw_Pp1-87B",
+        "source" : "flw",
+        "target" : "Pp1-87B",
+        "shared name" : "flw (interacts with) Pp1-87B",
+        "name" : "flw (interacts with) Pp1-87B",
+        "interaction" : "PPI",
+        "SUID" : "flw_Pp1-87B",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dsh_skd",
+        "source" : "dsh",
+        "target" : "skd",
+        "shared name" : "dsh (interacts with) skd",
+        "name" : "dsh (interacts with) skd",
+        "interaction" : "PPI",
+        "SUID" : "dsh_skd",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Cul1_SkpA",
+        "source" : "Cul1",
+        "target" : "SkpA",
+        "shared name" : "Cul1 (interacts with) SkpA",
+        "name" : "Cul1 (interacts with) SkpA",
+        "interaction" : "PPI",
+        "SUID" : "Cul1_SkpA",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dsh_Ssdp",
+        "source" : "dsh",
+        "target" : "Ssdp",
+        "shared name" : "dsh (interacts with) Ssdp",
+        "name" : "dsh (interacts with) Ssdp",
+        "interaction" : "PPI",
+        "SUID" : "dsh_Ssdp",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "kto_skd",
+        "source" : "kto",
+        "target" : "skd",
+        "shared name" : "kto (interacts with) skd",
+        "name" : "kto (interacts with) skd",
+        "interaction" : "PPI",
+        "SUID" : "kto_skd",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dco_CkIα",
+        "source" : "dco",
+        "target" : "CkIα",
+        "shared name" : "dco (interacts with) CkIα",
+        "name" : "dco (interacts with) CkIα",
+        "interaction" : "PPI",
+        "SUID" : "dco_CkIα",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "sgg_Axn",
+        "source" : "sgg",
+        "target" : "Axn",
+        "shared name" : "sgg (interacts with) Axn",
+        "name" : "sgg (interacts with) Axn",
+        "interaction" : "PPI",
+        "SUID" : "sgg_Axn",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pbl_Rho1",
+        "source" : "pbl",
+        "target" : "Rho1",
+        "shared name" : "pbl (interacts with) Rho1",
+        "name" : "pbl (interacts with) Rho1",
+        "interaction" : "PPI",
+        "SUID" : "pbl_Rho1",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_ebd1",
+        "source" : "arm",
+        "target" : "ebd1",
+        "shared name" : "arm (interacts with) ebd1",
+        "name" : "arm (interacts with) ebd1",
+        "interaction" : "PPI",
+        "SUID" : "arm_ebd1",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "ebd1_pan",
+        "source" : "ebd1",
+        "target" : "pan",
+        "shared name" : "ebd1 (interacts with) pan",
+        "name" : "ebd1 (interacts with) pan",
+        "interaction" : "PPI",
+        "SUID" : "ebd1_pan",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pan_Coop",
+        "source" : "pan",
+        "target" : "Coop",
+        "shared name" : "pan (interacts with) Coop",
+        "name" : "pan (interacts with) Coop",
+        "interaction" : "PPI",
+        "SUID" : "pan_Coop",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "ebd1_pygo",
+        "source" : "ebd1",
+        "target" : "pygo",
+        "shared name" : "ebd1 (interacts with) pygo",
+        "name" : "ebd1 (interacts with) pygo",
+        "interaction" : "PPI",
+        "SUID" : "ebd1_pygo",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dsh_Nek2",
+        "source" : "dsh",
+        "target" : "Nek2",
+        "shared name" : "dsh (interacts with) Nek2",
+        "name" : "dsh (interacts with) Nek2",
+        "interaction" : "PPI",
+        "SUID" : "dsh_Nek2",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_pan",
+        "source" : "arm",
+        "target" : "pan",
+        "shared name" : "arm (interacts with) pan",
+        "name" : "arm (interacts with) pan",
+        "interaction" : "PPI",
+        "SUID" : "arm_pan",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Cul1_Roc1a",
+        "source" : "Cul1",
+        "target" : "Roc1a",
+        "shared name" : "Cul1 (interacts with) Roc1a",
+        "name" : "Cul1 (interacts with) Roc1a",
+        "interaction" : "PPI",
+        "SUID" : "Cul1_Roc1a",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "lgs_pygo",
+        "source" : "lgs",
+        "target" : "pygo",
+        "shared name" : "lgs (interacts with) pygo",
+        "name" : "lgs (interacts with) pygo",
+        "interaction" : "PPI",
+        "SUID" : "lgs_pygo",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Wnt2_otk",
+        "source" : "Wnt2",
+        "target" : "otk",
+        "shared name" : "Wnt2 (interacts with) otk",
+        "name" : "Wnt2 (interacts with) otk",
+        "interaction" : "PPI",
+        "SUID" : "Wnt2_otk",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Wnt2_por",
+        "source" : "Wnt2",
+        "target" : "por",
+        "shared name" : "Wnt2 (interacts with) por",
+        "name" : "Wnt2 (interacts with) por",
+        "interaction" : "PPI",
+        "SUID" : "Wnt2_por",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "otk_fz2",
+        "source" : "otk",
+        "target" : "fz2",
+        "shared name" : "otk (interacts with) fz2",
+        "name" : "otk (interacts with) fz2",
+        "interaction" : "PPI",
+        "SUID" : "otk_fz2",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Wnt2_fz2",
+        "source" : "Wnt2",
+        "target" : "fz2",
+        "shared name" : "Wnt2 (interacts with) fz2",
+        "name" : "Wnt2 (interacts with) fz2",
+        "interaction" : "PPI",
+        "SUID" : "Wnt2_fz2",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Wnt6_wls",
+        "source" : "Wnt6",
+        "target" : "wls",
+        "shared name" : "Wnt6 (interacts with) wls",
+        "name" : "Wnt6 (interacts with) wls",
+        "interaction" : "PPI",
+        "SUID" : "Wnt6_wls",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Wnt2_wls",
+        "source" : "Wnt2",
+        "target" : "wls",
+        "shared name" : "Wnt2 (interacts with) wls",
+        "name" : "Wnt2 (interacts with) wls",
+        "interaction" : "PPI",
+        "SUID" : "Wnt2_wls",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Apc2_trbd",
+        "source" : "Apc2",
+        "target" : "trbd",
+        "shared name" : "Apc2 (interacts with) trbd",
+        "name" : "Apc2 (interacts with) trbd",
+        "interaction" : "PPI",
+        "SUID" : "Apc2_trbd",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "fz_Wnt2",
+        "source" : "fz",
+        "target" : "Wnt2",
+        "shared name" : "fz (interacts with) Wnt2",
+        "name" : "fz (interacts with) Wnt2",
+        "interaction" : "PPI",
+        "SUID" : "fz_Wnt2",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "por_Wnt6",
+        "source" : "por",
+        "target" : "Wnt6",
+        "shared name" : "por (interacts with) Wnt6",
+        "name" : "por (interacts with) Wnt6",
+        "interaction" : "PPI",
+        "SUID" : "por_Wnt6",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "fz_otk",
+        "source" : "fz",
+        "target" : "otk",
+        "shared name" : "fz (interacts with) otk",
+        "name" : "fz (interacts with) otk",
+        "interaction" : "PPI",
+        "SUID" : "fz_otk",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Roc1a_slmb",
+        "source" : "Roc1a",
+        "target" : "slmb",
+        "shared name" : "Roc1a (interacts with) slmb",
+        "name" : "Roc1a (interacts with) slmb",
+        "interaction" : "PPI",
+        "SUID" : "Roc1a_slmb",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Hipk_slmb",
+        "source" : "Hipk",
+        "target" : "slmb",
+        "shared name" : "Hipk (interacts with) slmb",
+        "name" : "Hipk (interacts with) slmb",
+        "interaction" : "PPI",
+        "SUID" : "Hipk_slmb",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "SkpA_slmb",
+        "source" : "SkpA",
+        "target" : "slmb",
+        "shared name" : "SkpA (interacts with) slmb",
+        "name" : "SkpA (interacts with) slmb",
+        "interaction" : "PPI",
+        "SUID" : "SkpA_slmb",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Cul1_slmb",
+        "source" : "Cul1",
+        "target" : "slmb",
+        "shared name" : "Cul1 (interacts with) slmb",
+        "name" : "Cul1 (interacts with) slmb",
+        "interaction" : "PPI",
+        "SUID" : "Cul1_slmb",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dsh_Axn",
+        "source" : "dsh",
+        "target" : "Axn",
+        "shared name" : "dsh (interacts with) Axn",
+        "name" : "dsh (interacts with) Axn",
+        "interaction" : "PPI",
+        "SUID" : "dsh_Axn",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Axn_Apc2",
+        "source" : "Axn",
+        "target" : "Apc2",
+        "shared name" : "Axn (interacts with) Apc2",
+        "name" : "Axn (interacts with) Apc2",
+        "interaction" : "PPI",
+        "SUID" : "Axn_Apc2",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_Axn",
+        "source" : "arm",
+        "target" : "Axn",
+        "shared name" : "arm (interacts with) Axn",
+        "name" : "arm (interacts with) Axn",
+        "interaction" : "PPI",
+        "SUID" : "arm_Axn",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arr_Axn",
+        "source" : "arr",
+        "target" : "Axn",
+        "shared name" : "arr (interacts with) Axn",
+        "name" : "arr (interacts with) Axn",
+        "interaction" : "PPI",
+        "SUID" : "arr_Axn",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_CkIα",
+        "source" : "arm",
+        "target" : "CkIα",
+        "shared name" : "arm (interacts with) CkIα",
+        "name" : "arm (interacts with) CkIα",
+        "interaction" : "PPI",
+        "SUID" : "arm_CkIα",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_sgg",
+        "source" : "arm",
+        "target" : "sgg",
+        "shared name" : "arm (interacts with) sgg",
+        "name" : "arm (interacts with) sgg",
+        "interaction" : "PPI",
+        "SUID" : "arm_sgg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dsh_otk",
+        "source" : "dsh",
+        "target" : "otk",
+        "shared name" : "dsh (interacts with) otk",
+        "name" : "dsh (interacts with) otk",
+        "interaction" : "PPI",
+        "SUID" : "dsh_otk",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dsh_fz2",
+        "source" : "dsh",
+        "target" : "fz2",
+        "shared name" : "dsh (interacts with) fz2",
+        "name" : "dsh (interacts with) fz2",
+        "interaction" : "PPI",
+        "SUID" : "dsh_fz2",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dsh_fz",
+        "source" : "dsh",
+        "target" : "fz",
+        "shared name" : "dsh (interacts with) fz",
+        "name" : "dsh (interacts with) fz",
+        "interaction" : "PPI",
+        "SUID" : "dsh_fz",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "hyd_sgg",
+        "source" : "hyd",
+        "target" : "sgg",
+        "shared name" : "hyd (interacts with) sgg",
+        "name" : "hyd (interacts with) sgg",
+        "interaction" : "PPI",
+        "SUID" : "hyd_sgg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_Apc2",
+        "source" : "arm",
+        "target" : "Apc2",
+        "shared name" : "arm (interacts with) Apc2",
+        "name" : "arm (interacts with) Apc2",
+        "interaction" : "PPI",
+        "SUID" : "arm_Apc2",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "fz2_wg",
+        "source" : "fz2",
+        "target" : "wg",
+        "shared name" : "fz2 (interacts with) wg",
+        "name" : "fz2 (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "fz2_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "opm_wg",
+        "source" : "opm",
+        "target" : "wg",
+        "shared name" : "opm (interacts with) wg",
+        "name" : "opm (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "opm_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dsh_Klp64D",
+        "source" : "dsh",
+        "target" : "Klp64D",
+        "shared name" : "dsh (interacts with) Klp64D",
+        "name" : "dsh (interacts with) Klp64D",
+        "interaction" : "PPI",
+        "SUID" : "dsh_Klp64D",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_mir-313",
+        "source" : "arm",
+        "target" : "mir-313",
+        "shared name" : "arm (interacts with) mir-313",
+        "name" : "arm (interacts with) mir-313",
+        "interaction" : "PPI",
+        "SUID" : "arm_mir-313",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pan_mir-313",
+        "source" : "pan",
+        "target" : "mir-313",
+        "shared name" : "pan (interacts with) mir-313",
+        "name" : "pan (interacts with) mir-313",
+        "interaction" : "PPI",
+        "SUID" : "pan_mir-313",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Apc2_Tnks",
+        "source" : "Apc2",
+        "target" : "Tnks",
+        "shared name" : "Apc2 (interacts with) Tnks",
+        "name" : "Apc2 (interacts with) Tnks",
+        "interaction" : "PPI",
+        "SUID" : "Apc2_Tnks",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "CHOp24_wg",
+        "source" : "CHOp24",
+        "target" : "wg",
+        "shared name" : "CHOp24 (interacts with) wg",
+        "name" : "CHOp24 (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "CHOp24_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "wls_wg",
+        "source" : "wls",
+        "target" : "wg",
+        "shared name" : "wls (interacts with) wg",
+        "name" : "wls (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "wls_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "fz_wg",
+        "source" : "fz",
+        "target" : "wg",
+        "shared name" : "fz (interacts with) wg",
+        "name" : "fz (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "fz_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Cow_wg",
+        "source" : "Cow",
+        "target" : "wg",
+        "shared name" : "Cow (interacts with) wg",
+        "name" : "Cow (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "Cow_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "nito_Hipk",
+        "source" : "nito",
+        "target" : "Hipk",
+        "shared name" : "nito (interacts with) Hipk",
+        "name" : "nito (interacts with) Hipk",
+        "interaction" : "PPI",
+        "SUID" : "nito_Hipk",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_dsh",
+        "source" : "arm",
+        "target" : "dsh",
+        "shared name" : "arm (interacts with) dsh",
+        "name" : "arm (interacts with) dsh",
+        "interaction" : "PPI",
+        "SUID" : "arm_dsh",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "spen_Hipk",
+        "source" : "spen",
+        "target" : "Hipk",
+        "shared name" : "spen (interacts with) Hipk",
+        "name" : "spen (interacts with) Hipk",
+        "interaction" : "PPI",
+        "SUID" : "spen_Hipk",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Swim_wg",
+        "source" : "Swim",
+        "target" : "wg",
+        "shared name" : "Swim (interacts with) wg",
+        "name" : "Swim (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "Swim_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "mir-8_wg",
+        "source" : "mir-8",
+        "target" : "wg",
+        "shared name" : "mir-8 (interacts with) wg",
+        "name" : "mir-8 (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "mir-8_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_Klp64D",
+        "source" : "arm",
+        "target" : "Klp64D",
+        "shared name" : "arm (interacts with) Klp64D",
+        "name" : "arm (interacts with) Klp64D",
+        "interaction" : "PPI",
+        "SUID" : "arm_Klp64D",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "por_wg",
+        "source" : "por",
+        "target" : "wg",
+        "shared name" : "por (interacts with) wg",
+        "name" : "por (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "por_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Axn_mir-315",
+        "source" : "Axn",
+        "target" : "mir-315",
+        "shared name" : "Axn (interacts with) mir-315",
+        "name" : "Axn (interacts with) mir-315",
+        "interaction" : "PPI",
+        "SUID" : "Axn_mir-315",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Notum_mir-315",
+        "source" : "Notum",
+        "target" : "mir-315",
+        "shared name" : "Notum (interacts with) mir-315",
+        "name" : "Notum (interacts with) mir-315",
+        "interaction" : "PPI",
+        "SUID" : "Notum_mir-315",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pan_mir-8",
+        "source" : "pan",
+        "target" : "mir-8",
+        "shared name" : "pan (interacts with) mir-8",
+        "name" : "pan (interacts with) mir-8",
+        "interaction" : "PPI",
+        "SUID" : "pan_mir-8",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "bai_wg",
+        "source" : "bai",
+        "target" : "wg",
+        "shared name" : "bai (interacts with) wg",
+        "name" : "bai (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "bai_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "wls_mir-8",
+        "source" : "wls",
+        "target" : "mir-8",
+        "shared name" : "wls (interacts with) mir-8",
+        "name" : "wls (interacts with) mir-8",
+        "interaction" : "PPI",
+        "SUID" : "wls_mir-8",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_hyx",
+        "source" : "arm",
+        "target" : "hyx",
+        "shared name" : "arm (interacts with) hyx",
+        "name" : "arm (interacts with) hyx",
+        "interaction" : "PPI",
+        "SUID" : "arm_hyx",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dsh_nkd",
+        "source" : "dsh",
+        "target" : "nkd",
+        "shared name" : "dsh (interacts with) nkd",
+        "name" : "dsh (interacts with) nkd",
+        "interaction" : "PPI",
+        "SUID" : "dsh_nkd",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_Hipk",
+        "source" : "arm",
+        "target" : "Hipk",
+        "shared name" : "arm (interacts with) Hipk",
+        "name" : "arm (interacts with) Hipk",
+        "interaction" : "PPI",
+        "SUID" : "arm_Hipk",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Hipk_pan",
+        "source" : "Hipk",
+        "target" : "pan",
+        "shared name" : "Hipk (interacts with) pan",
+        "name" : "Hipk (interacts with) pan",
+        "interaction" : "PPI",
+        "SUID" : "Hipk_pan",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_pygo",
+        "source" : "arm",
+        "target" : "pygo",
+        "shared name" : "arm (interacts with) pygo",
+        "name" : "arm (interacts with) pygo",
+        "interaction" : "PPI",
+        "SUID" : "arm_pygo",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_lgs",
+        "source" : "arm",
+        "target" : "lgs",
+        "shared name" : "arm (interacts with) lgs",
+        "name" : "arm (interacts with) lgs",
+        "interaction" : "PPI",
+        "SUID" : "arm_lgs",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Apc_Apc2",
+        "source" : "Apc",
+        "target" : "Apc2",
+        "shared name" : "Apc (interacts with) Apc2",
+        "name" : "Apc (interacts with) Apc2",
+        "interaction" : "PPI",
+        "SUID" : "Apc_Apc2",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_Apc",
+        "source" : "arm",
+        "target" : "Apc",
+        "shared name" : "arm (interacts with) Apc",
+        "name" : "arm (interacts with) Apc",
+        "interaction" : "PPI",
+        "SUID" : "arm_Apc",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Axn_Tnks",
+        "source" : "Axn",
+        "target" : "Tnks",
+        "shared name" : "Axn (interacts with) Tnks",
+        "name" : "Axn (interacts with) Tnks",
+        "interaction" : "PPI",
+        "SUID" : "Axn_Tnks",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arr_wg",
+        "source" : "arr",
+        "target" : "wg",
+        "shared name" : "arr (interacts with) wg",
+        "name" : "arr (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "arr_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dally_wg",
+        "source" : "dally",
+        "target" : "wg",
+        "shared name" : "dally (interacts with) wg",
+        "name" : "dally (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "dally_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "ewg_ebd1",
+        "source" : "ewg",
+        "target" : "ebd1",
+        "shared name" : "ewg (interacts with) ebd1",
+        "name" : "ewg (interacts with) ebd1",
+        "interaction" : "PPI",
+        "SUID" : "ewg_ebd1",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "aop_arm",
+        "source" : "aop",
+        "target" : "arm",
+        "shared name" : "aop (interacts with) arm",
+        "name" : "aop (interacts with) arm",
+        "interaction" : "PPI",
+        "SUID" : "aop_arm",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_mir-310",
+        "source" : "arm",
+        "target" : "mir-310",
+        "shared name" : "arm (interacts with) mir-310",
+        "name" : "arm (interacts with) mir-310",
+        "interaction" : "PPI",
+        "SUID" : "arm_mir-310",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pan_mir-310",
+        "source" : "pan",
+        "target" : "mir-310",
+        "shared name" : "pan (interacts with) mir-310",
+        "name" : "pan (interacts with) mir-310",
+        "interaction" : "PPI",
+        "SUID" : "pan_mir-310",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_mir-311",
+        "source" : "arm",
+        "target" : "mir-311",
+        "shared name" : "arm (interacts with) mir-311",
+        "name" : "arm (interacts with) mir-311",
+        "interaction" : "PPI",
+        "SUID" : "arm_mir-311",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pan_mir-312",
+        "source" : "pan",
+        "target" : "mir-312",
+        "shared name" : "pan (interacts with) mir-312",
+        "name" : "pan (interacts with) mir-312",
+        "interaction" : "PPI",
+        "SUID" : "pan_mir-312",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_mir-312",
+        "source" : "arm",
+        "target" : "mir-312",
+        "shared name" : "arm (interacts with) mir-312",
+        "name" : "arm (interacts with) mir-312",
+        "interaction" : "PPI",
+        "SUID" : "arm_mir-312",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pan_mir-311",
+        "source" : "pan",
+        "target" : "mir-311",
+        "shared name" : "pan (interacts with) mir-311",
+        "name" : "pan (interacts with) mir-311",
+        "interaction" : "PPI",
+        "SUID" : "pan_mir-311",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arr_dsh",
+        "source" : "arr",
+        "target" : "dsh",
+        "shared name" : "arr (interacts with) dsh",
+        "name" : "arr (interacts with) dsh",
+        "interaction" : "PPI",
+        "SUID" : "arr_dsh",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dlp_wg",
+        "source" : "dlp",
+        "target" : "wg",
+        "shared name" : "dlp (interacts with) wg",
+        "name" : "dlp (interacts with) wg",
+        "interaction" : "PPI",
+        "SUID" : "dlp_wg",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_nej",
+        "source" : "arm",
+        "target" : "nej",
+        "shared name" : "arm (interacts with) nej",
+        "name" : "arm (interacts with) nej",
+        "interaction" : "PPI",
+        "SUID" : "arm_nej",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Gint3_TER94",
+        "source" : "Gint3",
+        "target" : "TER94",
+        "shared name" : "Gint3 (interacts with) TER94",
+        "name" : "Gint3 (interacts with) TER94",
+        "interaction" : "PPI",
+        "SUID" : "Gint3_TER94",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "skd_pygo",
+        "source" : "skd",
+        "target" : "pygo",
+        "shared name" : "skd (interacts with) pygo",
+        "name" : "skd (interacts with) pygo",
+        "interaction" : "PPI",
+        "SUID" : "skd_pygo",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Roc1a_TER94",
+        "source" : "Roc1a",
+        "target" : "TER94",
+        "shared name" : "Roc1a (interacts with) TER94",
+        "name" : "Roc1a (interacts with) TER94",
+        "interaction" : "PPI",
+        "SUID" : "Roc1a_TER94",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Cul1_TER94",
+        "source" : "Cul1",
+        "target" : "TER94",
+        "shared name" : "Cul1 (interacts with) TER94",
+        "name" : "Cul1 (interacts with) TER94",
+        "interaction" : "PPI",
+        "SUID" : "Cul1_TER94",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "slmb_TER94",
+        "source" : "slmb",
+        "target" : "TER94",
+        "shared name" : "slmb (interacts with) TER94",
+        "name" : "slmb (interacts with) TER94",
+        "interaction" : "PPI",
+        "SUID" : "slmb_TER94",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_slmb",
+        "source" : "arm",
+        "target" : "slmb",
+        "shared name" : "arm (interacts with) slmb",
+        "name" : "arm (interacts with) slmb",
+        "interaction" : "PPI",
+        "SUID" : "arm_slmb",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "mts_tws",
+        "source" : "mts",
+        "target" : "tws",
+        "shared name" : "mts (interacts with) tws",
+        "name" : "mts (interacts with) tws",
+        "interaction" : "PPI",
+        "SUID" : "mts_tws",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_Oseg1",
+        "source" : "arm",
+        "target" : "Oseg1",
+        "shared name" : "arm (interacts with) Oseg1",
+        "name" : "arm (interacts with) Oseg1",
+        "interaction" : "PPI",
+        "SUID" : "arm_Oseg1",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Klp64D_rempA",
+        "source" : "Klp64D",
+        "target" : "rempA",
+        "shared name" : "Klp64D (interacts with) rempA",
+        "name" : "Klp64D (interacts with) rempA",
+        "interaction" : "PPI",
+        "SUID" : "Klp64D_rempA",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Klp64D_Oseg1",
+        "source" : "Klp64D",
+        "target" : "Oseg1",
+        "shared name" : "Klp64D (interacts with) Oseg1",
+        "name" : "Klp64D (interacts with) Oseg1",
+        "interaction" : "PPI",
+        "SUID" : "Klp64D_Oseg1",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm_rempA",
+        "source" : "arm",
+        "target" : "rempA",
+        "shared name" : "arm (interacts with) rempA",
+        "name" : "arm (interacts with) rempA",
+        "interaction" : "PPI",
+        "SUID" : "arm_rempA",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Axn_rempA",
+        "source" : "Axn",
+        "target" : "rempA",
+        "shared name" : "Axn (interacts with) rempA",
+        "name" : "Axn (interacts with) rempA",
+        "interaction" : "PPI",
+        "SUID" : "Axn_rempA",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Klp64D_Axn",
+        "source" : "Klp64D",
+        "target" : "Axn",
+        "shared name" : "Klp64D (interacts with) Axn",
+        "name" : "Klp64D (interacts with) Axn",
+        "interaction" : "PPI",
+        "SUID" : "Klp64D_Axn",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Axn_Oseg1",
+        "source" : "Axn",
+        "target" : "Oseg1",
+        "shared name" : "Axn (interacts with) Oseg1",
+        "name" : "Axn (interacts with) Oseg1",
+        "interaction" : "PPI",
+        "SUID" : "Axn_Oseg1",
+        "shared_interaction" : "PPI",
+        "selected" : false
+     },
+      "selected" : false
+    } ],
+    "nodes" : [ {
+      "data" : {
+        "id" : "trbd",
+        "shared name" : "trbd",
+        "name" : "trbd",
+        "expPapers" : 1,
+        "SUID" : "trbd",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "DEUBIQUITINASES",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "fz",
+        "shared name" : "fz",
+        "name" : "fz",
+        "expPapers" : 2,
+        "SUID" : "fz",
+        "selected" : false,
+        "status" : "Core_Components",
+        "function" : "TRANSMEMBRANE_RECEPTORS",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Nek2",
+        "shared name" : "Nek2",
+        "name" : "Nek2",
+        "expPapers" : 2,
+        "SUID" : "Nek2",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "KINASES",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Axn",
+        "shared name" : "Axn",
+        "name" : "Axn",
+        "expPapers" : 13,
+        "SUID" : "Axn",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "nkd",
+        "shared name" : "nkd",
+        "name" : "nkd",
+        "expPapers" : 4,
+        "SUID" : "nkd",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "mir-8",
+        "shared name" : "mir-8",
+        "name" : "mir-8",
+        "expPapers" : 1,
+        "SUID" : "mir-8",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "miRNA_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "lgs",
+        "shared name" : "lgs",
+        "name" : "lgs",
+        "expPapers" : 2,
+        "SUID" : "lgs",
+        "selected" : false,
+        "status" : "Core_Components",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Ssdp",
+        "shared name" : "Ssdp",
+        "name" : "Ssdp",
+        "expPapers" : 1,
+        "SUID" : "Ssdp",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pbl",
+        "shared name" : "pbl",
+        "name" : "pbl",
+        "expPapers" : 1,
+        "SUID" : "pbl",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "rempA",
+        "shared name" : "rempA",
+        "name" : "rempA",
+        "expPapers" : 2,
+        "SUID" : "rempA",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dally",
+        "shared name" : "dally",
+        "name" : "dally",
+        "expPapers" : 1,
+        "SUID" : "dally",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arr",
+        "shared name" : "arr",
+        "name" : "arr",
+        "expPapers" : 6,
+        "SUID" : "arr",
+        "selected" : false,
+        "status" : "Core_Components",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "tws",
+        "shared name" : "tws",
+        "name" : "tws",
+        "expPapers" : 1,
+        "SUID" : "tws",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Roc1a",
+        "shared name" : "Roc1a",
+        "name" : "Roc1a",
+        "expPapers" : 1,
+        "SUID" : "Roc1a",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "E3_UBIQUITIN_LIGASES",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Notum",
+        "shared name" : "Notum",
+        "name" : "Notum",
+        "expPapers" : 4,
+        "SUID" : "Notum",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Pp1-87B",
+        "shared name" : "Pp1-87B",
+        "name" : "Pp1-87B",
+        "expPapers" : 1,
+        "SUID" : "Pp1-87B",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "PHOSPHATASES",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Hipk",
+        "shared name" : "Hipk",
+        "name" : "Hipk",
+        "expPapers" : 2,
+        "SUID" : "Hipk",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "KINASES",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "mts",
+        "shared name" : "mts",
+        "name" : "mts",
+        "expPapers" : 1,
+        "SUID" : "mts",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "PHOSPHATASES",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Klp64D",
+        "shared name" : "Klp64D",
+        "name" : "Klp64D",
+        "expPapers" : 2,
+        "SUID" : "Klp64D",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "mir-312",
+        "shared name" : "mir-312",
+        "name" : "mir-312",
+        "expPapers" : 1,
+        "SUID" : "mir-312",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "miRNA_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "wls",
+        "shared name" : "wls",
+        "name" : "wls",
+        "expPapers" : 6,
+        "SUID" : "wls",
+        "selected" : false,
+        "status" : "Production",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pan",
+        "shared name" : "pan",
+        "name" : "pan",
+        "expPapers" : 4,
+        "SUID" : "pan",
+        "selected" : false,
+        "status" : "Core_Components",
+        "function" : "TRANSCRIPTION_FACTORS",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "mir-313",
+        "shared name" : "mir-313",
+        "name" : "mir-313",
+        "expPapers" : 1,
+        "SUID" : "mir-313",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "miRNA_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pygo",
+        "shared name" : "pygo",
+        "name" : "pygo",
+        "expPapers" : 7,
+        "SUID" : "pygo",
+        "selected" : false,
+        "status" : "Core_Components",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "CHOp24",
+        "shared name" : "CHOp24",
+        "name" : "CHOp24",
+        "expPapers" : 2,
+        "SUID" : "CHOp24",
+        "selected" : false,
+        "status" : "Production",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Apc",
+        "shared name" : "Apc",
+        "name" : "Apc",
+        "expPapers" : 9,
+        "SUID" : "Apc",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "sgg",
+        "shared name" : "sgg",
+        "name" : "sgg",
+        "expPapers" : 5,
+        "SUID" : "sgg",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "KINASES",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Gint3",
+        "shared name" : "Gint3",
+        "name" : "Gint3",
+        "expPapers" : 1,
+        "SUID" : "Gint3",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Cul1",
+        "shared name" : "Cul1",
+        "name" : "Cul1",
+        "expPapers" : 2,
+        "SUID" : "Cul1",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "slmb",
+        "shared name" : "slmb",
+        "name" : "slmb",
+        "expPapers" : 3,
+        "SUID" : "slmb",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "nito",
+        "shared name" : "nito",
+        "name" : "nito",
+        "expPapers" : 1,
+        "SUID" : "nito",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Rho1",
+        "shared name" : "Rho1",
+        "name" : "Rho1",
+        "expPapers" : 1,
+        "SUID" : "Rho1",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Oseg1",
+        "shared name" : "Oseg1",
+        "name" : "Oseg1",
+        "expPapers" : 2,
+        "SUID" : "Oseg1",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "mir-311",
+        "shared name" : "mir-311",
+        "name" : "mir-311",
+        "expPapers" : 1,
+        "SUID" : "mir-311",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "miRNA_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "wg",
+        "shared name" : "wg",
+        "name" : "wg",
+        "expPapers" : 19,
+        "SUID" : "wg",
+        "selected" : false,
+        "status" : "Core_Components",
+        "function" : "RECEPTOR_LIGANDS",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Wnt2",
+        "shared name" : "Wnt2",
+        "name" : "Wnt2",
+        "expPapers" : 1,
+        "SUID" : "Wnt2",
+        "selected" : false,
+        "status" : "Core_Components",
+        "function" : "RECEPTOR_LIGANDS",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "bai",
+        "shared name" : "bai",
+        "name" : "bai",
+        "expPapers" : 1,
+        "SUID" : "bai",
+        "selected" : false,
+        "status" : "Production",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "aop",
+        "shared name" : "aop",
+        "name" : "aop",
+        "expPapers" : 1,
+        "SUID" : "aop",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "TRANSCRIPTION_FACTORS",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "otk",
+        "shared name" : "otk",
+        "name" : "otk",
+        "expPapers" : 1,
+        "SUID" : "otk",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "KINASES,TRANSMEMBRANE_RECEPTORS",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "TER94",
+        "shared name" : "TER94",
+        "name" : "TER94",
+        "expPapers" : 1,
+        "SUID" : "TER94",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "CkIα",
+        "shared name" : "CkIα",
+        "name" : "CkIα",
+        "expPapers" : 5,
+        "SUID" : "CkIα",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "KINASES",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "mir-315",
+        "shared name" : "mir-315",
+        "name" : "mir-315",
+        "expPapers" : 1,
+        "SUID" : "mir-315",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "miRNA_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "tum",
+        "shared name" : "tum",
+        "name" : "tum",
+        "expPapers" : 2,
+        "SUID" : "tum",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "kto",
+        "shared name" : "kto",
+        "name" : "kto",
+        "expPapers" : 1,
+        "SUID" : "kto",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "SkpA",
+        "shared name" : "SkpA",
+        "name" : "SkpA",
+        "expPapers" : 1,
+        "SUID" : "SkpA",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dsh",
+        "shared name" : "dsh",
+        "name" : "dsh",
+        "expPapers" : 8,
+        "SUID" : "dsh",
+        "selected" : false,
+        "status" : "Core_Components",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Wnt6",
+        "shared name" : "Wnt6",
+        "name" : "Wnt6",
+        "expPapers" : 1,
+        "SUID" : "Wnt6",
+        "selected" : false,
+        "status" : "Core_Components",
+        "function" : "RECEPTOR_LIGANDS",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "nej",
+        "shared name" : "nej",
+        "name" : "nej",
+        "expPapers" : 1,
+        "SUID" : "nej",
+        "selected" : false,
+        "status" : "Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "arm",
+        "shared name" : "arm",
+        "name" : "arm",
+        "expPapers" : 10,
+        "SUID" : "arm",
+        "selected" : false,
+        "status" : "Core_Components",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "ewg",
+        "shared name" : "ewg",
+        "name" : "ewg",
+        "expPapers" : 1,
+        "SUID" : "ewg",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "TRANSCRIPTION_FACTORS",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Coop",
+        "shared name" : "Coop",
+        "name" : "Coop",
+        "expPapers" : 1,
+        "SUID" : "Coop",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "flw",
+        "shared name" : "flw",
+        "name" : "flw",
+        "expPapers" : 1,
+        "SUID" : "flw",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "PHOSPHATASES",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dlp",
+        "shared name" : "dlp",
+        "name" : "dlp",
+        "expPapers" : 3,
+        "SUID" : "dlp",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Tnks",
+        "shared name" : "Tnks",
+        "name" : "Tnks",
+        "expPapers" : 4,
+        "SUID" : "Tnks",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Cow",
+        "shared name" : "Cow",
+        "name" : "Cow",
+        "expPapers" : 1,
+        "SUID" : "Cow",
+        "selected" : false,
+        "status" : "Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "pav",
+        "shared name" : "pav",
+        "name" : "pav",
+        "expPapers" : 1,
+        "SUID" : "pav",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "ebd1",
+        "shared name" : "ebd1",
+        "name" : "ebd1",
+        "expPapers" : 1,
+        "SUID" : "ebd1",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "dco",
+        "shared name" : "dco",
+        "name" : "dco",
+        "expPapers" : 2,
+        "SUID" : "dco",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "KINASES",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "por",
+        "shared name" : "por",
+        "name" : "por",
+        "expPapers" : 4,
+        "SUID" : "por",
+        "selected" : false,
+        "status" : "Production",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "mir-310",
+        "shared name" : "mir-310",
+        "name" : "mir-310",
+        "expPapers" : 1,
+        "SUID" : "mir-310",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "miRNA_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "skd",
+        "shared name" : "skd",
+        "name" : "skd",
+        "expPapers" : 1,
+        "SUID" : "skd",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Apc2",
+        "shared name" : "Apc2",
+        "name" : "Apc2",
+        "expPapers" : 12,
+        "SUID" : "Apc2",
+        "selected" : false,
+        "status" : "Negative_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "hyd",
+        "shared name" : "hyd",
+        "name" : "hyd",
+        "expPapers" : 1,
+        "SUID" : "hyd",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "E3_UBIQUITIN_LIGASES",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "fz2",
+        "shared name" : "fz2",
+        "name" : "fz2",
+        "expPapers" : 7,
+        "SUID" : "fz2",
+        "selected" : false,
+        "status" : "Core_Components",
+        "function" : "TRANSMEMBRANE_RECEPTORS",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "spen",
+        "shared name" : "spen",
+        "name" : "spen",
+        "expPapers" : 1,
+        "SUID" : "spen",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "hyx",
+        "shared name" : "hyx",
+        "name" : "hyx",
+        "expPapers" : 1,
+        "SUID" : "hyx",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "opm",
+        "shared name" : "opm",
+        "name" : "opm",
+        "expPapers" : 1,
+        "SUID" : "opm",
+        "selected" : false,
+        "status" : "Production",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "Swim",
+        "shared name" : "Swim",
+        "name" : "Swim",
+        "expPapers" : 1,
+        "SUID" : "Swim",
+        "selected" : false,
+        "status" : "Positive_Regulators",
+        "function" : "none",
+        "type" : "protein_coding_gene"
+     },
+      "selected" : false
+    } ]
+  }
+}

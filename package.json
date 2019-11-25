@@ -11,14 +11,16 @@
     "react-app-polyfill": "^1.0.4",
     "react-cytoscapejs": "^1.2.1",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-feather": "^2.0.3",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "format": "prettier --write 'src/**/*.{js,css,gql}'"
+    "format": "prettier --write 'src/**/*.{js,css,gql,json}'"
   },
   "eslintConfig": {
     "extends": "react-app"

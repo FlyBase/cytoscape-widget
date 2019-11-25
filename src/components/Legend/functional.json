@@ -1,0 +1,9 @@
+[
+  { "label": "Ligand", "color": "#FF9966" },
+  { "label": "Receptor", "color": "#00CCCC" },
+  { "label": "Kinase", "color": "#CCFFCC" },
+  { "label": "Phosphatase", "color": "#3399FF" },
+  { "label": "Ubiquitin Ligase", "color": "#FFCCFF" },
+  { "label": "Deubiquitinase", "color": "#FFD700" },
+  { "label": "Transcription Factor", "color": "#858181" }
+]

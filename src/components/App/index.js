@@ -1,24 +1,36 @@
 import React, { useState } from 'react'
+import styled from 'styled-components/macro'
 import LayoutControl from '../LayoutControl'
 import CytoscapeContainer from '../CytoscapeContainer'
 
-import { normalizeElements } from 'react-cytoscapejs'
-
 // TODO temporary data and style import.  Replace with API call.
-import cytoscapeNetwork from './hh_sp'
+import cytoscapeNetwork from './wnt-tcf'
 import functionsStyle from './functions-style'
 import pathwaysStyle from './pathways-style'
+import Legend from 'components/Legend'
+
+const availableNetworks = {
+  functional: functionsStyle,
+  pathway: pathwaysStyle,
+}
 
 const App = () => {
-  const [layout, setLayout] = useState('functional')
-
+  const [networkStyle, setNetworkStyle] = useState('functional')
   return (
     <div>
-      <LayoutControl handleOnClick={newLayout => setLayout(newLayout)} />
-      <CytoscapeContainer
-        style={functionsStyle.style}
-        elements={normalizeElements(cytoscapeNetwork.elements)}
-      />
+      <LayoutControl handleOnClick={layout => setNetworkStyle(layout)} />
+      <div
+        css={`
+          display: flex;
+          justify-content: space-between;
+          flex-flow: column nowrap;
+        `}>
+        <CytoscapeContainer
+          stylesheet={availableNetworks[networkStyle].style}
+          elements={cytoscapeNetwork.elements}
+        />
+        <Legend networkStyle={networkStyle} />
+      </div>
     </div>
   )
 }
