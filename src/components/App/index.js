@@ -5,13 +5,13 @@ import CytoscapeContainer from '../CytoscapeContainer'
 
 // TODO temporary data and style import.  Replace with API call.
 import cytoscapeNetwork from './wnt-tcf'
-import functionsStyle from 'src/components/App/functional-style'
-import pathwaysStyle from 'src/components/App/pathway-style'
+import functionalStyle from 'components/App/functional-style'
+import pathwayStyle from 'components/App/pathway-style'
 import Legend from 'components/Legend'
 
 const availableNetworks = {
-  functional: functionsStyle,
-  pathway: pathwaysStyle,
+  functional: functionalStyle,
+  pathway: pathwayStyle,
 }
 
 const App = () => {
