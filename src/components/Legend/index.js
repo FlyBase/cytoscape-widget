@@ -1,4 +1,6 @@
 import React from 'react'
+import { Square, Circle, Triangle } from 'react-feather'
+// eslint-disable-next-line
 import styled from 'styled-components/macro'
 
 import functionalLegend from './functional'
@@ -9,32 +11,14 @@ const legends = {
   pathway: pathwayLegend,
 }
 
-const Box = ({ color }) => (
-  <svg
-    width="25"
-    height="25"
-    viewBox="0 0 20 20"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
-    <rect
-      x="0.5"
-      y="0.5"
-      width="19"
-      height="19"
-      fill={color}
-      stroke="lightgrey"
-    />
-  </svg>
-)
-
-const Item = ({ label, color }) => (
+const Item = ({ label, color, icon = Square }) => (
   <div
     css={`
       display: flex;
       align-items: center;
       margin: 10px;
     `}>
-    <Box color={color} />
+    {icon({ size:"24px", fill: color, stroke: '#595959' })}
     <div
       css={`
         margin-left: 5px;
@@ -44,19 +28,18 @@ const Item = ({ label, color }) => (
   </div>
 )
 const Legend = ({ networkStyle = 'functional' }) => (
-  <>
+  <div
+    css={`
+      display: flex;
+      flex-flow: column nowrap;
+    `}>
     <h3 style={{ color: 'grey' }}>Legend</h3>
-    <div
-      css={`
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-      `}>
-      {legends[networkStyle].map(item => (
-        <Item {...item} />
-      ))}
-    </div>
-  </>
+    {legends[networkStyle].map((item, i) => (
+      <Item key={i} {...item} />
+    ))}
+    <Item icon={() => <Circle />} color="white" label="Protein" />
+    <Item icon={() => <Triangle />} color="white" label="ncRNA" />
+  </div>
 )
 
 export default Legend
