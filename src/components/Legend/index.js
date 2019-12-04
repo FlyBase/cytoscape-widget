@@ -18,7 +18,7 @@ const Item = ({ label, color, icon = Square }) => (
       align-items: center;
       margin: 10px;
     `}>
-    {icon({ size:"24px", fill: color, stroke: '#595959' })}
+    {icon({ size: '24px', fill: color, stroke: '#595959' })}
     <div
       css={`
         margin-left: 5px;

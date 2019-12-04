@@ -3,10 +3,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components/macro'
 import LayoutControl from 'components/LayoutControl'
 import CytoscapeContainer from 'components/CytoscapeContainer'
-import { useWindowSize } from '@reach/window-size'
 
-// TODO temporary data and style import.  Replace with API call.
-import cytoscapeNetwork from './wnt-tcf'
 import functionalStyle from 'components/App/functional-style'
 import pathwayStyle from 'components/App/pathway-style'
 import Legend from 'components/Legend'
@@ -16,10 +13,8 @@ const availableNetworks = {
   pathway: pathwayStyle,
 }
 
-const App = () => {
+const App = ({ data }) => {
   const [networkStyle, setNetworkStyle] = useState('pathway')
-  const { width } = useWindowSize()
-  console.log("Width", width)
   return (
     <div>
       <div
@@ -30,15 +25,20 @@ const App = () => {
           padding: 20px;
 
           & > figure {
-            flex: 0 1 ${width <= 800 ? '100%'  : '55%'};
+            flex: 0 1 55%;
           }
           & > div {
             flex: 0 0 20rem;
           }
+          @media all and (max-width: 800px) {
+            & > figure {
+              flex: 0 1 100%;
+            }
+          }
         `}>
         <CytoscapeContainer
           stylesheet={availableNetworks[networkStyle].style}
-          elements={cytoscapeNetwork.elements}>
+          elements={data.elements}>
           <LayoutControl handleOnClick={layout => setNetworkStyle(layout)} />
         </CytoscapeContainer>
         <Legend networkStyle={networkStyle} />
