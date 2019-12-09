@@ -40,7 +40,7 @@ const Item = ({ label, color = '#000000', icon = Square }) => (
 Item.propTypes = {
   label: PropTypes.string.isRequired,
   color: PropTypes.string,
-  icon: PropTypes.element,
+  icon: PropTypes.func,
 }
 
 /**

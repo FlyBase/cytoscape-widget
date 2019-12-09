@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { ZoomIn, ZoomOut } from 'react-feather'
+import { HelpCircle, ZoomIn, ZoomOut } from 'react-feather'
 // eslint-disable-next-line
 import styled from 'styled-components/macro'
 
@@ -105,7 +105,8 @@ const CytoscapeContainer = ({ elements = [], stylesheet, children }) => {
       <CytoscapeComponent
         elements={normalizeElements(elements)}
         css={`
-          height: 450px;
+          height: 500px;
+          border-bottom: thin solid lightgrey;
         `}
         stylesheet={stylesheet}
         layout={layout}
@@ -113,13 +114,21 @@ const CytoscapeContainer = ({ elements = [], stylesheet, children }) => {
         zoom={zoomLevel}
         {...cytoOpts}
       />
+      <a
+        css={`
+          float: right;
+          margin-top: 5px;
+        `}
+        href="/wiki/FlyBase:Pathway_Report#Physical_Interaction_Network">
+        <HelpCircle />
+      </a>
     </figure>
   )
 }
 
 CytoscapeContainer.propTypes = {
   elements: PropTypes.object.isRequired,
-  stylesheet: PropTypes.object.isRequired,
+  stylesheet: PropTypes.array.isRequired,
   children: PropTypes.element,
 }
 
