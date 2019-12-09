@@ -39,12 +39,16 @@ const AppDataWrapper = ({ fbid }) => {
   return null
 }
 
+// Get a list of elements that have a specific class.
 const networkElements = Array.from(
   document.getElementsByClassName('flybase-cytoscape-network')
 )
 
+// Iterate over the elements.
 networkElements.forEach(elm => {
+  // Find the FBid for this page from the data-fbid attribute on the element.
   const fbid = elm.getAttribute('data-fbid')
+  // Mount the widget into each element.
   ReactDOM.render(<AppDataWrapper fbid={fbid} />, elm)
 })
 

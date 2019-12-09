@@ -1,8 +1,10 @@
 import React from 'react'
 import { Square, Circle, Triangle } from 'react-feather'
+import PropTypes from 'prop-types'
 // eslint-disable-next-line
 import styled from 'styled-components/macro'
 
+// Import legends for the functional and pathway displays.
 import functionalLegend from './functional'
 import pathwayLegend from './pathway'
 
@@ -11,7 +13,15 @@ const legends = {
   pathway: pathwayLegend,
 }
 
-const Item = ({ label, color, icon = Square }) => (
+/**
+ * Legend item component.
+ *
+ * @param label - Label to display.
+ * @param color - Color to display next to the item label.
+ * @param icon - Component that is used for the legend item icon. Default: SVG square
+ * @returns {*} - A legend item with a colored icon and a label.
+ */
+const Item = ({ label, color = '#000000', icon = Square }) => (
   <div
     css={`
       display: flex;
@@ -27,19 +37,34 @@ const Item = ({ label, color, icon = Square }) => (
     </div>
   </div>
 )
-const Legend = ({ networkStyle = 'functional' }) => (
+Item.propTypes = {
+  label: PropTypes.string.isRequired,
+  color: PropTypes.string,
+  icon: PropTypes.element,
+}
+
+/**
+ * Legend component.
+ *
+ * @param type - The type of network we are currently displaying.
+ * @returns {*} - The legend for the appropriate network type.
+ */
+const Legend = ({ type = 'functional' }) => (
   <div
     css={`
       display: flex;
       flex-flow: column nowrap;
     `}>
     <h3 style={{ color: 'grey' }}>Legend</h3>
-    {legends[networkStyle].map((item, i) => (
+    {legends[type].map((item, i) => (
       <Item key={i} {...item} />
     ))}
     <Item icon={() => <Circle />} color="white" label="Protein" />
     <Item icon={() => <Triangle />} color="white" label="ncRNA" />
   </div>
 )
+Legend.propTypes = {
+  type: PropTypes.string,
+}
 
 export default Legend
