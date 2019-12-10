@@ -37,8 +37,7 @@ const App = ({ data }) => {
             flex: 0 1 55%;
           }
           & > div {
-            flex: 0 0 auto;
-            min-width: 17rem;
+            flex: 0 0 17rem;
           }
           @media all and (max-width: 800px) {
             & > figure {
@@ -49,7 +48,7 @@ const App = ({ data }) => {
         <CytoscapeContainer
           stylesheet={networkStyles[networkType].style}
           elements={data.elements}>
-          <LayoutControl handleOnClick={layout => setNetworkType(layout)} />
+          <LayoutControl current={networkType} handleOnClick={layout => setNetworkType(layout)} />
         </CytoscapeContainer>
         <Legend type={networkType} />
       </div>

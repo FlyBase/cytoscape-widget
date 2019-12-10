@@ -1,33 +1,24 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Radio } from 'antd'
 
-// CSS dependencies for the antd Radio button.
-import 'antd/dist/antd.css'
 
 /**
  * Component for allowing users to change the network visualization between
  * pathway and functional.
  *
- * Also see https://ant.design/components/radio/
- *
+ * @param current - The current network style.
  * @param handleOnClick - Event handler that is called when a layout button is clicked.
  * @returns {*} - Radio buttons for switching between pathway and functional views.
  */
-const LayoutControl = ({ handleOnClick = () => {} }) => (
-  <div>
-    <Radio.Group
-      defaultValue="pathway"
-      size="large"
-      buttonStyle="solid"
-      onChange={e => handleOnClick(e.target.value)}>
-      <Radio.Button value="pathway">Pathway</Radio.Button>
-      <Radio.Button value="functional">Functional</Radio.Button>
-    </Radio.Group>
+const LayoutControl = ({ current = 'pathway', handleOnClick = () => {} }) => (
+  <div onClick={(e) => handleOnClick(e?.target?.value ?? 'pathway')}>
+    <button className={`btn ${current === 'pathway' ? 'btn-primary' : 'btn-default'}`} value="pathway">Pathway</button>
+    <button style={{marginLeft: "5px" }} className={`btn ${current === 'functional' ? 'btn-primary' : 'btn-default'}`} value="functional">Functional</button>
   </div>
 )
 
 LayoutControl.propTypes = {
+  current: PropTypes.string,
   handleOnClick: PropTypes.func,
 }
 
