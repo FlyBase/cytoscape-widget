@@ -119,7 +119,8 @@ const CytoscapeContainer = ({ elements = [], stylesheet, children }) => {
           float: right;
           margin-top: 5px;
         `}
-        href="/wiki/FlyBase:Pathway_Report#Physical_Interaction_Network">
+        href="/wiki/FlyBase:Pathway_Report#Physical_Interaction_Network"
+        title="Help?">
         <HelpCircle />
       </a>
     </figure>

@@ -48,7 +48,10 @@ const App = ({ data }) => {
         <CytoscapeContainer
           stylesheet={networkStyles[networkType].style}
           elements={data.elements}>
-          <LayoutControl current={networkType} handleOnClick={layout => setNetworkType(layout)} />
+          <LayoutControl
+            current={networkType}
+            handleOnClick={layout => setNetworkType(layout)}
+          />
         </CytoscapeContainer>
         <Legend type={networkType} />
       </div>
