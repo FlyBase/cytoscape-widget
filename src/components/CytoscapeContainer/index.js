@@ -9,6 +9,7 @@ import Cytoscape from 'cytoscape'
 // Layout engine
 import fcose from 'cytoscape-fcose'
 import CytoscapeComponent, { normalizeElements } from 'react-cytoscapejs'
+import ResetButton from '../ResetButton'
 
 // Register the fcose layout in Cytoscape.
 Cytoscape.use(fcose)
@@ -44,7 +45,14 @@ const CytoscapeContainer = ({ elements = [], stylesheet, children }) => {
   // object.
   const [zoomLevel, setZoomLevel] = useState(1.0)
   const [cyRef, setCyRef] = useState(null)
+  const [currentNode, setCurrentNode] = useState(null)
 
+  if (cyRef) {
+    cyRef.on('tapdragover', 'node', ({ target: node } = null) =>
+      setCurrentNode(node.id())
+    )
+    cyRef.on('tapdragout', 'node', () => setCurrentNode(null))
+  }
   /**
    * Event handler for zooming.
    *
@@ -93,10 +101,24 @@ const CytoscapeContainer = ({ elements = [], stylesheet, children }) => {
         {/* Mount any children pass to component. */}
         {children}
         <div>
-          <button title="zoom in" onClick={() => handleZoom('IN')}>
+          <ResetButton
+            onClick={() => {
+              cyRef.reset()
+              cyRef.layout(layout).run()
+            }}
+          />
+        </div>
+        <div>
+          <button
+            className="btn btn-default"
+            title="zoom in"
+            onClick={() => handleZoom('IN')}>
             <ZoomIn />
           </button>
-          <button title="zoom out" onClick={() => handleZoom('OUT')}>
+          <button
+            className="btn btn-default"
+            title="zoom out"
+            onClick={() => handleZoom('OUT')}>
             <ZoomOut />
           </button>
         </div>
@@ -114,15 +136,22 @@ const CytoscapeContainer = ({ elements = [], stylesheet, children }) => {
         zoom={zoomLevel}
         {...cytoOpts}
       />
-      <a
-        css={`
-          float: right;
-          margin-top: 5px;
-        `}
-        href="/wiki/FlyBase:Pathway_Report#Physical_Interaction_Network"
-        title="Help?">
-        <HelpCircle />
-      </a>
+      <div>
+        {currentNode && (
+          <>
+            <b>{`Gene: ${currentNode}`}</b>
+          </>
+        )}
+        <a
+          css={`
+            float: right;
+            margin-top: 5px;
+          `}
+          href="/wiki/FlyBase:Pathway_Report#Physical_Interaction_Network"
+          title="Help?">
+          <HelpCircle size={18} />
+        </a>
+      </div>
     </figure>
   )
 }

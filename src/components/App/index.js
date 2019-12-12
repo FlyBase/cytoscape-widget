@@ -37,7 +37,8 @@ const App = ({ data }) => {
             flex: 0 1 55%;
           }
           & > div {
-            flex: 0 0 17rem;
+            flex: 0 0 auto;
+            min-width: 20em;
           }
           @media all and (max-width: 800px) {
             & > figure {
