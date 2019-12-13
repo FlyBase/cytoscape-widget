@@ -5,20 +5,14 @@ A simple React component for displaying networks using [CytoscapeJS](https://js.
 
 ## Getting started
 
+The following clones the Github repo, installs dependencies,
+and starts a development server with a small demo.
+
 ```bash
 git clone https://github.com/FlyBase/flybase-cytoscape
 cd flybase-cytoscape
 yarn install
-yarn run build
-```
-
-Now you can push this build directory to your webserver and build a page
-that pulls in the JS/CSS files listed in the `asses-manifest.json` file.
-
-e.g.
-```bash
-mv build/* /usr/local/apache/htdocs/cytoscape/
-
+yarn run start
 ```
 
 ## Supported Networks
@@ -26,6 +20,13 @@ mv build/* /usr/local/apache/htdocs/cytoscape/
  * FlyBase Gene Group pathway networks.
 
 ## Development
+
+### Proxy settings
+
+By default, the development environment proxy's API data from the FlyBase preview server
+at https://preview.flybase.org/.  If you wish to change the source of network data you
+will need to modify the `proxy` setting in the `package.json` file located in the top
+level directory.
 
 ### Available Scripts
 

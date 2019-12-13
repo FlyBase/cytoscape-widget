@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": ".",
-  "proxy": "http://localhost:7082",
+  "proxy": "https://preview.flybase.org:443",
   "dependencies": {
     "@sentry/browser": "^5.9.0",
     "cytoscape": "^3.12.0",
