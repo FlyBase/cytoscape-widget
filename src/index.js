@@ -3,23 +3,54 @@ import 'react-app-polyfill/stable'
 
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { useFetch } from 'react-async'
 import * as Sentry from '@sentry/browser'
 
 import './index.css'
 import App from './components/App'
 import * as serviceWorker from './serviceWorker'
 
+// Initialize debugging capture.
 Sentry.init({
   dsn: process.env.REACT_APP_SENTRY_DSN,
   environment: process.env.NODE_ENV,
 })
 
+// Accessibility scanning for development mode.
 if (process.env.NODE_ENV !== 'production') {
   const axe = require('react-axe')
   axe(React, ReactDOM, 1000)
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+// Component for handling async fetching of data from the server.
+const AppDataWrapper = ({ fbid }) => {
+  const { data, error } = useFetch(`/api/networks/${fbid}`, {
+    headers: { accept: 'application/json' },
+  })
+  if (error) return <h3>Failed to fetch network data: {error.message}</h3>
+  if (data) {
+    // Destruct the response to pull out the network data and load the app.
+    const {
+      resultset: { result: networkData = [] },
+    } = data
+    if (networkData[0]) return <App data={networkData[0]} />
+  }
+  // Return null otherwise
+  return null
+}
+
+// Get a list of elements that have a specific class.
+const networkElements = Array.from(
+  document.getElementsByClassName('flybase-cytoscape-network')
+)
+
+// Iterate over the elements.
+networkElements.forEach(elm => {
+  // Find the FBid for this page from the data-fbid attribute on the element.
+  const fbid = elm.getAttribute('data-fbid')
+  // Mount the widget into each element.
+  ReactDOM.render(<AppDataWrapper fbid={fbid} />, elm)
+})
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

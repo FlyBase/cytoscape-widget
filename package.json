@@ -2,23 +2,30 @@
   "name": "@flybase/cytoscape",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
+  "proxy": "https://preview.flybase.org:443",
   "dependencies": {
     "@sentry/browser": "^5.9.0",
     "cytoscape": "^3.12.0",
     "cytoscape-cose-bilkent": "^4.1.0",
     "cytoscape-fcose": "^1.2.0",
+    "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-app-polyfill": "^1.0.4",
+    "react-async": "^10.0.0",
     "react-cytoscapejs": "^1.2.1",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-feather": "^2.0.3",
+    "react-scripts": "3.3.0",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
+    "prestart": "yarn run format",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "format": "prettier --write 'src/**/*.{js,css,gql}'"
+    "format": "prettier --write 'src/**/*.{js,css,gql,json}'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,5 +56,8 @@
     "@testing-library/react": "^9.3.2",
     "prettier": "^1.19.1",
     "react-axe": "^3.3.0"
+  },
+  "babelMacros": {
+    "styledComponents": {}
   }
 }
