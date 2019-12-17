@@ -21,12 +21,12 @@ const legends = {
  * @param icon - Component that is used for the legend item icon. Default: SVG square
  * @returns {*} - A legend item with a colored icon and a label.
  */
-const Item = ({ label, color = '#000000', icon = Square }) => (
+const Item = ({ label, color = '#000000', icon = Square, margin = '10px' }) => (
   <div
     css={`
       display: flex;
       align-items: center;
-      margin: 10px;
+      margin: ${margin};
     `}>
     {icon({ size: '24px', fill: color, stroke: '#595959' })}
     <div
@@ -59,7 +59,12 @@ const Legend = ({ type = 'functional' }) => (
     {legends[type].map((item, i) => (
       <Item key={i} {...item} />
     ))}
-    <Item icon={() => <Circle />} color="white" label="Protein" />
+    <Item
+      icon={() => <Circle />}
+      color="white"
+      label="Protein"
+      margin="3rem 1rem 1rem 1rem"
+    />
     <Item icon={() => <Triangle />} color="white" label="ncRNA" />
   </div>
 )
