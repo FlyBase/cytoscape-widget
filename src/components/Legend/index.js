@@ -21,14 +21,14 @@ const legends = {
  * @param icon - Component that is used for the legend item icon. Default: SVG square
  * @returns {*} - A legend item with a colored icon and a label.
  */
-const Item = ({ label, color = '#000000', Icon = Square, margin = '10px' }) => (
+const Item = ({ label, color = '#000000', icon, margin = '10px' }) => (
   <div
     css={`
       display: flex;
       align-items: center;
       margin: ${margin};
     `}>
-    <Icon size="24px" fill={color} stroke="#595959" />
+    {icon ?? <Square size="24px" fill={color} stroke="#595959" />}
     <div
       css={`
         margin-left: 5px;
@@ -60,12 +60,14 @@ const Legend = ({ type = 'functional' }) => (
       <Item key={i} {...item} />
     ))}
     <Item
-      icon={Circle}
-      color="white"
+      icon={<Circle color="white" size="24px" stroke="#595959" />}
       label="Protein"
       margin="3rem 1rem 1rem 1rem"
     />
-    <Item icon={Triangle} color="white" label="ncRNA" />
+    <Item
+      icon={<Triangle color="white" size="24px" stroke="#595959" />}
+      label="ncRNA"
+    />
   </div>
 )
 Legend.propTypes = {
