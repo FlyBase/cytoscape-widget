@@ -1,6 +1,6 @@
 {
   "name": "@flybase/cytoscape",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "homepage": ".",
   "proxy": "https://preview.flybase.org:443",
