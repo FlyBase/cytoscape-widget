@@ -1,25 +1,67 @@
 import React, { useState } from 'react'
-import LayoutControl from '../LayoutControl'
-import CytoscapeContainer from '../CytoscapeContainer'
+import PropTypes from 'prop-types'
+// eslint-disable-next-line
+import styled from 'styled-components/macro'
+import LayoutControl from 'components/LayoutControl'
+import CytoscapeContainer from 'components/CytoscapeContainer'
 
-import { normalizeElements } from 'react-cytoscapejs'
+import functionalStyle from 'components/App/functional-style'
+import pathwayStyle from 'components/App/pathway-style'
+import Legend from 'components/Legend'
 
-// TODO temporary data and style import.  Replace with API call.
-import cytoscapeNetwork from './hh_sp'
-import functionsStyle from './functions-style'
-import pathwaysStyle from './pathways-style'
+// Cytoscape styles as defined by curators.
+const networkStyles = {
+  functional: functionalStyle,
+  pathway: pathwayStyle,
+}
 
-const App = () => {
-  const [layout, setLayout] = useState('functional')
-
+/**
+ * Main app component for rendering the cytoscape widget.
+ *
+ * @param data - The cytoscape network data.  The only required object attribute is 'elements'.
+ * @returns {*} - The cytoscape widget.
+ */
+const App = ({ data }) => {
+  // State to hold the currently selected network type.
+  const [networkType, setNetworkType] = useState('pathway')
   return (
     <div>
-      <LayoutControl handleOnClick={newLayout => setLayout(newLayout)} />
-      <CytoscapeContainer
-        style={functionsStyle.style}
-        elements={normalizeElements(cytoscapeNetwork.elements)}
-      />
+      <div
+        css={`
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-evenly;
+          padding: 20px;
+
+          & > figure {
+            flex: 0 1 55%;
+          }
+          & > div {
+            flex: 0 0 auto;
+            min-width: 20em;
+          }
+          @media all and (max-width: 800px) {
+            & > figure {
+              flex: 0 1 100%;
+            }
+          }
+        `}>
+        <CytoscapeContainer
+          stylesheet={networkStyles[networkType].style}
+          elements={data.elements}>
+          <LayoutControl
+            current={networkType}
+            handleOnClick={layout => setNetworkType(layout)}
+          />
+        </CytoscapeContainer>
+        <Legend type={networkType} />
+      </div>
     </div>
   )
+}
+App.propTypes = {
+  data: PropTypes.shape({
+    elements: PropTypes.object,
+  }).isRequired,
 }
 export default App
