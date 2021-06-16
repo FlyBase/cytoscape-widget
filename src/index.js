@@ -18,7 +18,7 @@ Sentry.init({
 
 // Accessibility scanning for development mode.
 if (process.env.NODE_ENV !== 'production') {
-  const axe = require('react-axe')
+  const axe = require('@axe-core/react')
   axe(React, ReactDOM, 1000)
 }
 
@@ -45,7 +45,7 @@ const networkElements = Array.from(
 )
 
 // Iterate over the elements.
-networkElements.forEach(elm => {
+networkElements.forEach((elm) => {
   // Find the FBid for this page from the data-fbid attribute on the element.
   const fbid = elm.getAttribute('data-fbid')
   // Mount the widget into each element.

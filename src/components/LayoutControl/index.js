@@ -10,7 +10,7 @@ import PropTypes from 'prop-types'
  * @returns {*} - Radio buttons for switching between pathway and functional views.
  */
 const LayoutControl = ({ current = 'pathway', handleOnClick = () => {} }) => (
-  <div onClick={e => handleOnClick(e?.target?.value ?? 'pathway')}>
+  <div onClick={(e) => handleOnClick(e?.target?.value ?? 'pathway')}>
     <button
       className={`btn ${current === 'pathway' ? 'btn-primary' : 'btn-default'}`}
       title="Pathway"

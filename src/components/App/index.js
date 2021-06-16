@@ -51,7 +51,7 @@ const App = ({ data }) => {
           elements={data.elements}>
           <LayoutControl
             current={networkType}
-            handleOnClick={layout => setNetworkType(layout)}
+            handleOnClick={(layout) => setNetworkType(layout)}
           />
         </CytoscapeContainer>
         <Legend type={networkType} />

@@ -5,14 +5,14 @@ import { HelpCircle, ZoomIn, ZoomOut } from 'react-feather'
 import styled from 'styled-components/macro'
 
 // Import Cytoscape dependencies.
-import Cytoscape from 'cytoscape'
+import cytoscape from 'cytoscape'
 // Layout engine
 import fcose from 'cytoscape-fcose'
 import CytoscapeComponent, { normalizeElements } from 'react-cytoscapejs'
 import ResetButton from '../ResetButton'
 
 // Register the fcose layout in Cytoscape.
-Cytoscape.use(fcose)
+cytoscape.use(fcose)
 
 // Layout paramters for cytoscape
 const layout = {
@@ -132,7 +132,7 @@ const CytoscapeContainer = ({ elements = [], stylesheet, children }) => {
         `}
         stylesheet={stylesheet}
         layout={layout}
-        cy={cy => setCyRef(cy)}
+        cy={(cy) => setCyRef(cy)}
         zoom={zoomLevel}
         {...cytoOpts}
       />
