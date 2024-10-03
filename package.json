@@ -5,7 +5,7 @@
   "homepage": ".",
   "proxy": "https://preview.flybase.org",
   "dependencies": {
-    "@sentry/browser": "^6.7.1",
+    "@sentry/browser": "^8.33.0",
     "cytoscape": "3.19.0",
     "cytoscape-cose-bilkent": "^4.1.0",
     "cytoscape-fcose": "^2.0.0",
